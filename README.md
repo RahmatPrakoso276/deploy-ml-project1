@@ -5,10 +5,13 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 ## Daftar Isi
 
 - [Deskripsi Proyek](#Web-App-implement-ML-Models)
-- [Fitur Utama](#fitur-utama)
+- [Dataset](#WOverview-Dataset)
+- [Fitur Utama](#Fitur-Utama)
 - [Instalasi](#instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
 - [Kontribusi](#kontribusi)
+- [Author](#Author)
+- [Bash](#bash)
 
 ##Overview Dataset
 
