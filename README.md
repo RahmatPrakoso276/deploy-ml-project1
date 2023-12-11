@@ -4,7 +4,7 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 
 ## Daftar Isi
 
-- [Deskripsi Proyek](#deskripsi-proyek)
+- [Deskripsi Proyek](#Web-App-implement-ML-Models)
 - [Fitur Utama](#fitur-utama)
 - [Instalasi](#instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
