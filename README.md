@@ -14,7 +14,7 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 - [Bash](#bash)
 
 ## Overview Dataset
-Dataset yang digunakan mencakup data Tabular, Teks, dan Citra. data tabular memiliki jumlah kelas sebanyak 2 (binary) yang menentukan data termasuk kedalam kelas Income_>50K atau dibawah. Data Teks memiliki jumlah kelas sebanyak 3(Muli kelas) sebagai penentu teks termasuk kedalam label Negative, Neutral, atau Positive. Data Citra yang digunakan adalah data Rock, paper, Scissors (3 Kelas) sebagai penentu gambar termasuk kedalam kelas (R/P/S). Agar dapat meningkatkan pemahaman lebih terhadap dataset yang saya jelaskan, dataset tersebut dapat dilihat di [Klik di sini](https://drive.google.com/drive/folders/1LLWPaI13a5hDUFocoFy6BxHQRmtH3QRm?usp=drive_link)
+Dataset yang digunakan mencakup data Tabular, Teks, dan Citra. data tabular memiliki jumlah kelas sebanyak 2 (binary) yang menentukan data termasuk kedalam kelas Income_>50K atau dibawah. Data Teks memiliki jumlah kelas sebanyak 3(Muli kelas) sebagai penentu teks termasuk kedalam label Negative, Neutral, atau Positive. Data Citra yang digunakan adalah data Rock, paper, Scissors (3 Kelas) sebagai penentu gambar termasuk kedalam kelas (R/P/S). Agar dapat meningkatkan pemahaman lebih terhadap dataset yang saya jelaskan, dataset tersebut dapat dilihat di [sini](https://drive.google.com/drive/folders/1LLWPaI13a5hDUFocoFy6BxHQRmtH3QRm?usp=drive_link)
 
 ## Fitur Utama
 1. Prediksi Multitipe Data: Aplikasi ini mendukung prediksi pada data berjenis tabular, teks, dan citra. Pengguna dapat mengunggah dataset mereka sesuai jenis data 
