@@ -28,7 +28,63 @@ Dataset yang digunakan mencakup data Tabular, Teks, dan Citra. data tabular memi
 
 3. Interface yang digunakan adalah HTML, CSS, dan JavaScript.
 
-## Project Flow
+
+## Project Flow Data Text
+1. Load Dataset Text
+
+Pada tahapan ini, data yang diperoleh diload kedalam program. Berikut merupakan contoh dari masing - masing fitur dalam dataset.
+
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/3b3884ca-1faa-4150-8e60-2433ade7e842)
+
+Distribusi target kelas nya dapat dilihat sebagai berikut:
+
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/4af657ea-62a5-46ac-b03e-61018632766b)
+
+3. Data Preprocessing 
+   
+Data Preprocessing teks dalam project ini meliputi : 
+- Removing null & duplicated Values
+  Null values dalam dataset tersebut sebanyak 3 instance pada kolom 'cleaned_review' sedangkan uplicated values dalam dataset tersebut sebanyak 1348 instance. untuk handlingnya adalah dengan melakukan penghapusan instance yang memiliki nilai tersebut.
+  
+- removing unrelevant feature
+  Perlu dilakukan penhapusan feature/kolom yang tidak memiliki pengaruh terhadap model klasifikasi yang kita ingin buat. dalam kasus ini feature yang dihapus adalah 'cleander_review_length' dan 'review_score'
+
+- removing punctuation
+  Tanda baca seperti koma, titik, tanda tanya, dan lainnya seringkali tidak memberikan informasi yang signifikan dalam analisis teks. Oleh karena itu, langkah ini melibatkan penghapusan tanda baca dari setiap token untuk membersihkan teks dari karakter yang tidak relevan.
+  
+- stopword removal
+  Stopword adalah kata-kata umum yang sering muncul dalam teks namun tidak menyimpan informasi yang signifikan. Contoh stopwords dalam Bahasa Inggris termasuk "the", "and", "is", dan sebagainya. Proses ini melibatkan penghapusan stopwords untuk meningkatkan kualitas analisis teks.
+  
+- lemmatization
+  Tujuan lemmatization adalah untuk menyederhanakan kata-kata sehingga variasi morfologis dari kata tidak mempengaruhi analisis teks. Proses ini membantu dalam mengatasi perbedaan bentuk kata yang sebenarnya memiliki makna yang sama.
+
+Hasil dari preprocessing tersebut dapat dilihat dari gambar di bawah ini :
+
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/29e026dc-bc15-46c9-bf55-cde7d6de226b)
+
+5. Modelling
+
+- tokenization
+  Pada tahap ini kalimat dipecah menjadi kata. kata kata yang dipecah kemudian dilakukan indexing dan dimuat kedalam dictionary kata. jumlah maximum kata untuk dictionary adalah 5000 kata
+
+- Padding
+  Pada tahap ini dilakukan padding pada setiap sequence kalimat, hal ini dilakukan untuk memberikan input shape yang konsisten pada saat diinput ke model. jumlah panjang setiap sequence di set = 200 kata
+   
+Model yang digunakan pada project ini merupakan RNN.
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/c05d1f79-a180-4383-97e1-af974141385e)
+
+7. Evaluation
+   
+Hasil dari pelatihan dapat dilihat pada graf berikut:
+
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/e3b7a60c-0a0e-421b-b154-bb6799a59258)
+
+Metrik penelitian yang digunakan adalah metrik umum yang biasa digunkan untuk task klasifikasi yaitu accuracy. hasil evaluasi kinerja model diatas sebagai berikut :
+
+![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/47d3b944-88a2-4927-a52f-5e4e717f6b3f)
+
+
+## Project Flow Data Citra
 1. Load Dataset Citra
 
 Pada tahapan ini, data yang diperoleh diload kedalam program. Berikut merupakan contoh dari masing - masing citra dalam setiap kategori dataset.
