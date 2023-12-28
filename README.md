@@ -7,7 +7,8 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 - [Deskripsi Proyek](#Web-App-implement-ML-Models)
 - [Dataset](#WOverview-Dataset)
 - [Fitur Utama](#Fitur-Utama)
-- [Project Flow](#Project-flow)
+- [Project Flow Data Teks](#Project-flow-Data-Text)
+- [Project Flow Data Citra](#Project-flow-Data-Citra)
 - [Instalasi](#instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
 - [Kontribusi](#kontribusi)
@@ -70,7 +71,8 @@ Hasil dari preprocessing tersebut dapat dilihat dari gambar di bawah ini :
 - Padding
   Pada tahap ini dilakukan padding pada setiap sequence kalimat, hal ini dilakukan untuk memberikan input shape yang konsisten pada saat diinput ke model. jumlah panjang setiap sequence di set = 200 kata
    
-Model yang digunakan pada project ini merupakan RNN.
+Model yang digunakan pada project ini merupakan RNN. berikut adalah arsitekturnya:
+
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/c05d1f79-a180-4383-97e1-af974141385e)
 
 7. Evaluation
