@@ -29,15 +29,18 @@ Dataset yang digunakan mencakup data Tabular, Teks, dan Citra. data tabular memi
 
 ## Project Flow
 1. Load Dataset Citra
+
 Pada tahapan ini, data yang diperoleh diload kedalam program. Berikut merupakan contoh dari masing - masing citra dalam setiap kategori dataset.
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/22d6b2b9-c9c0-45a8-bbb7-f968d5312e72)
 
 3. Data Preprocessing and augmentation
+   
 Data augmentasi dilakukan untuk mendapat lebih banyak data pada pelatihan yang akan dilakukan, data yang diproleh dari augmentasi yang dilakukan pada project ini bersifat sintetis dengan begitu jumlah data     pada dataset tidak berubah. Adapun beberapa parameter dalam proses augmentasi yang dilakukan adalah: rescale=1./255, rotation_range=30, zoom_range=0.2, height_shift_range=0.2, horizontal_flip=True, fill_mode='nearest'. Hasil dari augmentasi dapat dilihat pada gambar dibawah:
 
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/4e297932-d796-483b-8b1b-9982931cd18d)
 
 5. Modelling
+   
 Model yang digunakan pada project ini merupakan DenseNet-169. Berikut merupakan summery model dari DenseNet-169:
 
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/a3994381-b78e-4461-9976-165acffe3c61)
@@ -55,6 +58,7 @@ Setelah arsitektur machine learning dibuat, selanjutnyya adalah tahap pelatihan 
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/dfb37fab-1a54-4af1-96a6-d811fc5a6bb0)
 
 7. Evaluation
+   
 Hasil dari pelatihan dapat dilihat pada graf berikut:
 
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/57545df9-d7d5-44c6-84b6-679dc968e596)
