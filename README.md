@@ -7,7 +7,7 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 - [Deskripsi Proyek](#Web-App-implement-ML-Models)
 - [Dataset](#WOverview-Dataset)
 - [Fitur Utama](#Fitur-Utama)
-  [Project Flow](#Project-flow)
+- [Project Flow](#Project-flow)
 - [Instalasi](#instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
 - [Kontribusi](#kontribusi)
