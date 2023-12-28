@@ -7,6 +7,7 @@ Proyek ini adalah implementasi aplikasi web yang memanfaatkan kekuatan berbagai 
 - [Deskripsi Proyek](#Web-App-implement-ML-Models)
 - [Dataset](#WOverview-Dataset)
 - [Fitur Utama](#Fitur-Utama)
+  [Project Flow](#Project-flow)
 - [Instalasi](#instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
 - [Kontribusi](#kontribusi)
@@ -84,6 +85,3 @@ $ git clone https://github.com/RahmatPrakoso276/deploy-ml-project1
 $ cd deploy-ml-project1
 $ npm install
 ```
-
-![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/d6cb63e6-403e-47ff-a284-b4ce2d02358d)
-
