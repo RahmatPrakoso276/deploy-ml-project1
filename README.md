@@ -31,6 +31,7 @@ Dataset yang digunakan mencakup data Tabular, Teks, dan Citra. data tabular memi
 1. Load Dataset Citra
 
 Pada tahapan ini, data yang diperoleh diload kedalam program. Berikut merupakan contoh dari masing - masing citra dalam setiap kategori dataset.
+
 ![image](https://github.com/RahmatPrakoso276/deploy-ml-project1/assets/79794844/22d6b2b9-c9c0-45a8-bbb7-f968d5312e72)
 
 3. Data Preprocessing and augmentation
